@@ -1,0 +1,7 @@
+numpy
+pandas
+gcsfs
+google-cloud-storage
+kubeflow-fairing
+grpcio
+

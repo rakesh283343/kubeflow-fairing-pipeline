@@ -1,0 +1,127 @@
+Activated service account credentials for: [kubeflow-setup@tc-sc-bi-bigdata-cdl-dev.iam.gserviceaccount.com]
+Adding credentials for all GCR repositories.
+WARNING: A long list of credential helpers may cause delays running 'docker build'. We recommend passing the registry name to configure only the registry you are using.
+Docker configuration file updated.
+Activated service account credentials for: [kubeflow-setup@tc-sc-bi-bigdata-cdl-dev.iam.gserviceaccount.com]
+WARNING: Your config file at [/root/.docker/config.json] contains these credential helper entries:
+{
+  "credHelpers": {
+    "gcr.io": "gcloud",
+    "us.gcr.io": "gcloud",
+    "eu.gcr.io": "gcloud",
+    "asia.gcr.io": "gcloud",
+    "staging-k8s.gcr.io": "gcloud",
+    "marketplace.gcr.io": "gcloud"
+  }
+}
+Adding credentials for all GCR repositories.
+WARNING: A long list of credential helpers may cause delays running 'docker build'. We recommend passing the registry name to configure only the registry you are using.
+gcloud credential helpers already registered correctly.
+[W 200512 10:28:34 append:50] Building image using Append builder...
+[I 200512 10:28:34 base:107] Creating docker context: /tmp/fairing_context_f7mxx4on
+[I 200512 10:28:34 docker_creds_:234] Loading Docker credentials for repository 'gcr.io/tc-sc-bi-bigdata-cdl-dev/lightgbm:latest'
+[I 200512 10:28:34 docker_creds_:152] Invoking 'docker-credential-gcloud' to obtain Docker credentials.
+[I 200512 10:28:35 docker_creds_:175] Successfully obtained Docker credentials.
+[W 200512 10:28:35 append:54] Image successfully built in 1.255258692894131s.
+[W 200512 10:28:35 append:94] Pushing image gcr.io/tc-sc-bi-bigdata-cdl-dev/fairing-job/fairing-job:218B2084...
+[I 200512 10:28:35 docker_creds_:234] Loading Docker credentials for repository 'gcr.io/tc-sc-bi-bigdata-cdl-dev/fairing-job/fairing-job:218B2084'
+[I 200512 10:28:35 docker_creds_:152] Invoking 'docker-credential-gcloud' to obtain Docker credentials.
+[I 200512 10:28:36 docker_creds_:175] Successfully obtained Docker credentials.
+[W 200512 10:28:36 append:81] Uploading gcr.io/tc-sc-bi-bigdata-cdl-dev/fairing-job/fairing-job:218B2084
+[I 200512 10:28:36 docker_session_:280] Layer sha256:690cfa439a94e5822a9edd1b17a063d9d2437ccb35ec1762f6dd9688bee4541e exists, skipping
+[I 200512 10:28:36 docker_session_:280] Layer sha256:1aa33568be24fdaa62e9ada848d4ac41fb37efff8c77467995dfd27bb656ab50 exists, skipping
+[I 200512 10:28:36 docker_session_:280] Layer sha256:deb569b08de6261bb3b332bb10e809fc6945ffd08f3f4e71df495223c4ae8985 exists, skipping
+[I 200512 10:28:36 docker_session_:280] Layer sha256:74e27dc593d49a6d728dfe36976cb1469e076fbf3611e501fd030308cd212a80 exists, skipping
+[I 200512 10:28:36 docker_session_:280] Layer sha256:5ae88975c1ebba21a00e9a193192caa59ab5553d3601ec22ec9c9f23f1c2f5e3 exists, skipping
+[I 200512 10:28:36 docker_session_:280] Layer sha256:bbc37f14aded2d49bfac62dfa404755c9f1cadfee2b35933e4906f0054782888 exists, skipping
+[I 200512 10:28:36 docker_session_:280] Layer sha256:a8034acd589398eb68902bda22e67da113cb9de731fc27eb6fd85f2709dcee6a exists, skipping
+[I 200512 10:28:36 docker_session_:280] Layer sha256:7719b74986e9a3d3542056f1e1fe72af0976c1f6f4e1818585f93c8e5152988e exists, skipping
+[I 200512 10:28:36 docker_session_:280] Layer sha256:90fe46dd819953eb995f9cc9c326130abe9dd0b3993a998e12c01d0218a0b831 exists, skipping
+[I 200512 10:28:36 docker_session_:280] Layer sha256:35a4f197768941ef308d981a94f6d06fb77b9f2ba89dc04d2daf8292ee297315 exists, skipping
+[I 200512 10:28:36 docker_session_:280] Layer sha256:4352dcff781953572c12e05ae2fb6110663338140d5fec17b170e047bcaf4074 exists, skipping
+[I 200512 10:28:36 docker_session_:280] Layer sha256:2d16d00d6796943120777df6cbe0243ea4bf6fca85670ef88aa863d2476e59ae exists, skipping
+[I 200512 10:28:36 docker_session_:280] Layer sha256:f43ca09137f1b348af6665493359d58fe0ba6e8f21d7cd9074765431dfaa8f05 exists, skipping
+[I 200512 10:28:36 docker_session_:280] Layer sha256:4f91e3e48f490c59683613defb18b9607d39ca5143eb855737cb04bddde965d8 exists, skipping
+[I 200512 10:28:37 docker_session_:284] Layer sha256:95437e1bfc3edde2cc798ecb3596b85f761d59a7041bc39e0f3c74b4cb561c7b pushed.
+[I 200512 10:28:37 docker_session_:284] Layer sha256:127ff87f92facb2e49d6d5ec248fde02ef81aa3e9989cb45ccf3a02123d8755d pushed.
+[I 200512 10:28:37 docker_session_:334] Finished upload of: gcr.io/tc-sc-bi-bigdata-cdl-dev/fairing-job/fairing-job:218B2084
+[W 200512 10:28:37 append:99] Pushed image gcr.io/tc-sc-bi-bigdata-cdl-dev/fairing-job/fairing-job:218B2084 in 2.3840908547863364s.
+[W 200512 10:28:38 gcp:71] could not check for secret: (403)
+    Reason: Forbidden
+    HTTP response headers: HTTPHeaderDict({'Audit-Id': '089ef299-483f-48e2-a64c-39a9df693f38', 'Content-Type': 'application/json', 'X-Content-Type-Options': 'nosniff', 'Date': 'Tue, 12 May 2020 10:28:38 GMT', 'Content-Length': '301'})
+    HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"secrets is forbidden: User \"system:serviceaccount:kubeflow:pipeline-runner\" cannot list resource \"secrets\" in API group \"\" in the namespace \"kubeflow\"","reason":"Forbidden","details":{"kind":"secrets"},"code":403}
+    
+    
+[W 200512 10:28:38 job:101] The tfjob fairing-tfjob-k5ntn launched.
+[W 200512 10:28:38 manager:296] Waiting for fairing-tfjob-k5ntn-worker-0 to start...
+[W 200512 10:28:38 manager:296] Waiting for fairing-tfjob-k5ntn-worker-0 to start...
+[W 200512 10:30:15 manager:296] Waiting for fairing-tfjob-k5ntn-worker-0 to start...
+[W 200512 10:30:17 manager:296] Waiting for fairing-tfjob-k5ntn-worker-0 to start...
+[W 200512 10:30:33 manager:296] Waiting for fairing-tfjob-k5ntn-worker-0 to start...
+[W 200512 10:30:44 manager:296] Waiting for fairing-tfjob-k5ntn-worker-0 to start...
+[W 200512 10:30:44 manager:296] Waiting for fairing-tfjob-k5ntn-worker-0 to start...
+[I 200512 10:31:21 manager:302] Pod started running True
+INFO: Step 1
+INFO: Step 2
+INFO: Step 3
+[I 200512 10:31:26 utils:187] Cluster setup:
+[I 200512 10:31:26 utils:189] fairing-tfjob-k5ntn-chief-0.kubeflow.svc	10.52.181.2	2222
+[I 200512 10:31:26 utils:189] fairing-tfjob-k5ntn-worker-0.kubeflow.svc	10.52.182.2	2222
+[I 200512 10:31:26 utils:189] fairing-tfjob-k5ntn-worker-1.kubeflow.svc	10.52.178.2	2222
+[I 200512 10:31:26 utils:189] fairing-tfjob-k5ntn-worker-2.kubeflow.svc	10.52.179.2	2222
+Your "OAuth 2.0 Service Account" credentials are invalid. Please run
+  $ gcloud auth login
+Traceback (most recent call last):
+  File "/builder/google-cloud-sdk/platform/gsutil/gsutil", line 22, in <module>
+    gsutil.RunMain()
+  File "/builder/google-cloud-sdk/platform/gsutil/gsutil.py", line 117, in RunMain
+    sys.exit(gslib.__main__.main())
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/__main__.py", line 407, in main
+    perf_trace_token=perf_trace_token, user_project=user_project)
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/__main__.py", line 590, in _RunNamedCommandAndHandleExceptions
+    user_project=user_project)
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/command_runner.py", line 372, in RunNamedCommand
+    return_code = command_inst.RunCommand()
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/commands/cp.py", line 1182, in RunCommand
+    seek_ahead_iterator=seek_ahead_iterator)
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/command.py", line 1441, in Apply
+    arg_checker, should_return_results, fail_on_error)
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/command.py", line 1487, in _SequentialApply
+    args = args_iterator.next()
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/name_expansion.py", line 622, in next
+    name_expansion_result = self.current_expansion_iter.next()
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/plurality_checkable_iterator.py", line 65, in _PopulateHead
+    e = self.base_iterator.next()
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/name_expansion.py", line 265, in __iter__
+    for (names_container, blr) in post_step3_iter:
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/plurality_checkable_iterator.py", line 65, in _PopulateHead
+    e = self.base_iterator.next()
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/name_expansion.py", line 468, in __iter__
+    for (names_container, blr) in self.tuple_iter:
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/plurality_checkable_iterator.py", line 65, in _PopulateHead
+    e = self.base_iterator.next()
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/name_expansion.py", line 518, in __iter__
+    for blr in self.blr_iter:
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/plurality_checkable_iterator.py", line 65, in _PopulateHead
+    e = self.base_iterator.next()
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/wildcard_iterator.py", line 477, in IterAll
+    expand_top_level_buckets=expand_top_level_buckets):
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/wildcard_iterator.py", line 179, in __iter__
+    fields=get_fields)
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/cloud_api_delegator.py", line 258, in GetObjectMetadata
+    return self._GetApi(provider).GetObjectMetadata(
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/cloud_api_delegator.py", line 106, in _GetApi
+    self._LoadApi(provider, api_selector)
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/cloud_api_delegator.py", line 132, in _LoadApi
+    user_project=self.user_project))
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/gcs_json_api.py", line 177, in __init__
+    SetUpJsonCredentialsAndCache(self, logger, credentials=credentials)
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/gcs_json_credentials.py", line 131, in SetUpJsonCredentialsAndCache
+    credentials or _CheckAndGetCredentials(logger) or NoOpCredentials())
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/gcs_json_credentials.py", line 198, in _CheckAndGetCredentials
+    service_account_creds = _GetOauth2ServiceAccountCredentials()
+  File "/builder/google-cloud-sdk/platform/gsutil/gslib/gcs_json_credentials.py", line 253, in _GetOauth2ServiceAccountCredentials
+    with open(private_key_filename, 'rb') as private_key_file:
+IOError: [Errno 2] No such file or directory: '/etc/secrets/user-gcp-sa.json'
+rpc error: code = Unknown desc = Error: No such container: ac17ed40e43811a3503dfa5160b60da0064a2379424c26f216cb5913e0d6a36b
+INFO: Step 4
